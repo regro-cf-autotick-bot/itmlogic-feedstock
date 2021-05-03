@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools_scm
   run:
-    - python
+    - python >=3.6
     - setuptools_scm
 
 test:
@@ -38,6 +38,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - oblute
     - winstonjhoyle
     - Tata17
