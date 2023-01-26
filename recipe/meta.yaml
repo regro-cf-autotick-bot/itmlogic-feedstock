@@ -1,5 +1,5 @@
 {% set name = "itmlogic" %}
-{% set version = "0.1" %}
+{% set version = "1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fa65eb9bff2a0ff3798bc10d6962874aa594d4ed9826d4a36c23cb3b81115e51
+  sha256: f189d334bc8bfbf17718812c3f3943fa0650300af5b77e9bcd4c4fc193f4af1d
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: "Longley-Rice irregular terrain propagation model"
+  summary: Longley-Rice irregular terrain propagation model
   doc_url: https://pypi.org/project/itmlogic/#description
   dev_url: https://github.com/edwardoughton/itmlogic
 
